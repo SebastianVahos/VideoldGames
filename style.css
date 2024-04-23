@@ -23,10 +23,234 @@
     left: 87.6%;
     color: red;
 }
-.mario img{
+.mario_retro img{
     position: absolute;
     top: 21%;
     left: 90%;
     height: 48.8px;
-    backdrop-filter: 80%;
+    transition: 0.5s;
+    object-fit: cover;
+    margin: 0;
 }
+.mario_retro:hover img{
+    transform: scale(1.3);
+}
+.pacman img{
+    position: absolute;
+    top: 21%;
+    left:84.5%;
+    height: 48.8px;
+    transition: 0.5s;
+    object-fit: cover;
+}
+.pacman:hover img{
+    transform: scale(1.3);
+}
+.zelda img{
+    position: absolute;
+    top: 29%;
+    left:84%;
+    height: 48.8px;
+    transition: 0.5s;
+    object-fit: cover;
+}
+.zelda:hover img{
+    transform: scale(1.3);
+}
+.pokemon img{
+    position: absolute;
+    top: 29%;
+    left:90%;
+    height: 48.8px;
+    transition: 0.5s;
+    object-fit: cover;
+}
+.pokemon:hover img{
+    transform: scale(1.3);
+}
+
+.the_sims i{
+    position: absolute;
+    top: 23%;
+    right: 76%;
+    color: red;
+}
+.sims img{
+    position: absolute;
+    top: 21%;
+    right: 72.5%;
+    height: 48.8px;
+    transition: 0.5s;
+    object-fit: cover;
+}
+.sims:hover img{
+    transform: scale(1.3);
+}
+
+.assassin i{
+    position: absolute;
+    top: 12%;
+    right: 79.5%;
+    color: red;
+}
+.assassin_creed img{
+    position: absolute;
+    top: 9%;
+    right: 75.6%;
+    height: 48.8px;
+    transition: 0.5s;
+    object-fit: cover;
+}
+.assassin_creed:hover img{
+    transform: scale(1.3);
+}
+
+.Lol i{
+    position: absolute;
+    top: 25%;
+    right: 82.2%;
+    color: red;
+}
+.legends img{
+    position: absolute;
+    top: 29%;
+    right: 85.2%;
+    height: 48.8px;
+    transition: 0.5s;
+    object-fit: cover;
+    background-color: rgb(205%, 250%, 250%); 
+}
+.legends:hover img{
+    transform: scale(1.3);
+}
+.world img{
+    position: absolute;
+    top: 29%;
+    right: 79%;
+    height: 48.8px;
+    transition: 0.5s;
+    object-fit: cover;
+}
+.world:hover img{
+    transform: scale(1.3);
+}
+
+.hero i{
+    position: absolute;
+    top: 20.5%;
+    right: 69.1%;
+    color: red;
+}
+.guitar img{
+    position: absolute;
+    top: 17%;
+    right: 66%;
+    height: 48.8px;
+    transition: 0.5s;
+    object-fit: cover;
+}
+.guitar:hover img{
+    transform: scale(1.3);
+}
+
+.auto i{
+    position: absolute;
+    top: 13%;
+    left: 47.6%;
+    color: red;
+}
+.gta img{
+    position: absolute;
+    top: 11%;
+    left: 43.9%;
+    height: 48.8px;
+    transition: 0.5s;
+    object-fit: cover;
+}
+.gta:hover img{
+    transform: scale(1.3);
+}
+
+.mine i{
+    position: absolute;
+    top: 10.5%;
+    left: 53.5%;
+    color: red;
+}
+.minecraft img{
+    position: absolute;
+    top: 6%;
+    left: 50.2%;
+    height: 48.8px;
+    transition: 0.5s;
+    object-fit: cover;
+}
+.minecraft:hover img{
+    transform: scale(1.3);
+}
+
+.tetris i{
+    position: absolute;
+    top: 14%;
+    left: 59%;
+    color: red;
+}
+.tetri img{
+    position: absolute;
+    top: 11.5%;
+    left: 62%;
+    height: 48.8px;
+    transition: 0.5s;
+    object-fit: cover;
+}
+.tetri:hover img{
+    transform: scale(1.3);
+}
+
+.halo i{
+    position: absolute;
+    top: 18%;
+    right: 83%;
+    color: red;
+}
+.combat img{
+    position: absolute;
+    top: 10.9%;
+    right: 83.6%;
+    height: 48.8px;
+    transition: 0.5s;
+    object-fit: cover;
+}
+.combat:hover img{
+    transform: scale(1.3);
+}
+.counter img{
+    position: absolute;
+    top: 18%;
+    right: 86%;
+    height: 48.8px;
+    transition: 0.5s;
+    object-fit: cover;
+}
+.counter:hover img{
+    transform: scale(1.3);
+}
+
+.angry i{
+    position: absolute;
+    top: 9%;
+    left: 56.5%;
+    color: red;
+}
+.birds img{
+    position: absolute;
+    top: 3%;
+    left: 58%;
+    height: 48.8px;
+    transition: 0.5s;
+    object-fit: cover;
+}
+.birds:hover img{
+    transform: scale(1.3);
+}
+
