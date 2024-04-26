@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Jersey 10", sans-serif;
+    font-style: normal;
 }
 
 .imagen {
@@ -25,45 +27,52 @@
 }
 .mario_retro img{
     position: absolute;
-    top: 21%;
+    top: 20%;
     left: 90%;
     height: 48.8px;
     transition: 0.5s;
     object-fit: cover;
     margin: 0;
+    transform: translateY(10px);
 }
 .mario_retro:hover img{
     transform: scale(1.3);
 }
+
 .pacman img{
     position: absolute;
-    top: 21%;
+    top: 20%;
     left:84.5%;
     height: 48.8px;
     transition: 0.5s;
     object-fit: cover;
+    transform: translateY(10px);
 }
 .pacman:hover img{
     transform: scale(1.3);
 }
+
 .zelda img{
     position: absolute;
-    top: 29%;
+    top: 28%;
     left:84%;
     height: 48.8px;
     transition: 0.5s;
     object-fit: cover;
+    transform: translateY(10px);
 }
 .zelda:hover img{
     transform: scale(1.3);
 }
+
 .pokemon img{
     position: absolute;
-    top: 29%;
+    top: 28%;
     left:90%;
     height: 48.8px;
     transition: 0.5s;
     object-fit: cover;
+    transform: translateY(10px);
 }
 .pokemon:hover img{
     transform: scale(1.3);
@@ -82,6 +91,7 @@
     height: 48.8px;
     transition: 0.5s;
     object-fit: cover;
+    transform: translateY(10px);
 }
 .sims:hover img{
     transform: scale(1.3);
@@ -100,6 +110,7 @@
     height: 48.8px;
     transition: 0.5s;
     object-fit: cover;
+    transform: translateY(10px);
 }
 .assassin_creed:hover img{
     transform: scale(1.3);
@@ -119,6 +130,7 @@
     transition: 0.5s;
     object-fit: cover;
     background-color: rgb(205%, 250%, 250%); 
+    transform: translateY(10px);
 }
 .legends:hover img{
     transform: scale(1.3);
@@ -130,6 +142,7 @@
     height: 48.8px;
     transition: 0.5s;
     object-fit: cover;
+    transform: translateY(10px);
 }
 .world:hover img{
     transform: scale(1.3);
@@ -148,6 +161,7 @@
     height: 48.8px;
     transition: 0.5s;
     object-fit: cover;
+    transform: translateY(10px);
 }
 .guitar:hover img{
     transform: scale(1.3);
@@ -166,6 +180,7 @@
     height: 48.8px;
     transition: 0.5s;
     object-fit: cover;
+    transform: translateY(10px);
 }
 .gta:hover img{
     transform: scale(1.3);
@@ -184,6 +199,7 @@
     height: 48.8px;
     transition: 0.5s;
     object-fit: cover;
+    transform: translateY(10px);
 }
 .minecraft:hover img{
     transform: scale(1.3);
@@ -202,6 +218,7 @@
     height: 48.8px;
     transition: 0.5s;
     object-fit: cover;
+    transform: translateY(10px);
 }
 .tetri:hover img{
     transform: scale(1.3);
@@ -220,6 +237,7 @@
     height: 48.8px;
     transition: 0.5s;
     object-fit: cover;
+    transform: translateY(10px);
 }
 .combat:hover img{
     transform: scale(1.3);
@@ -231,6 +249,7 @@
     height: 48.8px;
     transition: 0.5s;
     object-fit: cover;
+    transform: translateY(10px);
 }
 .counter:hover img{
     transform: scale(1.3);
@@ -249,8 +268,64 @@
     height: 48.8px;
     transition: 0.5s;
     object-fit: cover;
+    transform: translateY(10px);
 }
 .birds:hover img{
     transform: scale(1.3);
 }
 
+/* Tooltip */
+.tooltip{
+    display: flex;
+    position: absolute;
+    width: 15em;
+    top: 0;
+    left: 0;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 50px rgb(0, 0, 0,.20); 
+    z-index: 1000;/*Esto hace que el tooltip este por arriba de algun elemento que podamos tener*/
+    opacity: 0;/*alterna en 0 oculto, 1 es visible*/
+    transition: .3s ease all;
+    transform: translateY(10px);
+}
+.tooltip::after{
+    content: "";
+    display: inline-block;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid #fff;
+    position: absolute;
+    left: calc(50% - 15px);
+}
+.tooltip.activo{
+    opacity: 1;
+    transform: translateY(0px);
+}
+.tooltip .thumb{
+    width: 40%;
+}
+.tooltip .thumb img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px 0 0 10px;
+    vertical-align: top;
+}
+.tooltip .info {
+    width: 60%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.tooltip .titulo{
+    color: red;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.tooltip .description{
+    margin-bottom: 20px;
+    font-size: 20px;
+    margin-bottom: 0;
+}

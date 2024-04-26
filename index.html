@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
-
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet">
     <title>VideoldGames</title>
 </head>
 <body>
@@ -15,52 +15,313 @@
     <div class="box-icon">
         <div class="mario">
             <i class="fas fa-map-marker-alt"></i>  
-            <div class="mario_retro"><img src = "imagenes/mario_retro.png"></img></div>
-            <div class="pacman"><img src = "imagenes/pacman_retro.png"></img></div>
-            <div class="zelda"><img src = "imagenes/zelda.png"></img></div> 
-            <div class="pokemon"><img src = "imagenes/pokemon.png"></img></div>       
+            <div class="mario_retro"><img src = "imagenes/mario_retro.png" id="iconoMario"></img></div>
+            <div class="tooltip" id="tooltip">
+                <div class="thumb">
+                    <img src="imagenes/juegoMarioTooltip.jpg" alt="">
+                </div>
+                <div class="info">
+                    <h3 class="titulo">Super Mario Bros.</h3>
+                    <p class="description">Rescata a la princesa peach que fue secuestrada</p>
+                    <p class="description">por Bowser, Luigi y Mario recorreran 8 mapas de</p>
+                    <p class="description">muchos obstaculos para poder salvarla.</p>
+                    <strong class="description">Consolas:</strong>
+                    <p class="description">Nintendo 64</p>
+                    <p class="description">Nintendo 3DS</p>
+                    <p class="description">consola NES</p>
+                    <strong class="description">Año de creación:</strong>
+                    <p class="description">1985</p>
+                    <strong class="description">Género:</strong>
+                    <p class="description">Aventura</p>
+                    <strong class="description">Desarrollado en:</strong>
+                    <p class="description">Japón</p>
+                </div>
+            </div>
         </div>
+        <div>
+            <div class="pacman"><img src = "imagenes/pacman_retro.png" id="iconoPacman"></img></div>
+            <div class="tooltip" id="tooltipPac">
+                <div class="thumb">
+                    <img src="imagenes/PacmanTooltip.jpg" alt="">
+                </div>
+                <div class="info">
+                    <h3 class="titulo">Pac-Man</h3>
+                    <p class="description">Come punto pequeños(pac-dots), frutas, y pasa el nivel</p>
+                    <p class="description">perseguido por 4 fantasmas, entraras por diferentes </p>
+                    <p class="description">laberintos para cumplir con el objetivo.</p>
+                    <strong class="description">Consolas:</strong>
+                    <p class="description">Game Boy Advance</p>
+                    <p class="description">Arcade</p>
+                    <p class="description">Nintendo Entertainment System(NES)</p>
+                    <strong class="description">Año de creación:</strong>
+                    <p class="description">1984</p>
+                    <strong class="description">Género:</strong>
+                    <p class="description">Acción</p>
+                    <p class="description">Maze game</p>
+                    <strong class="description">Desarrollado en:</strong>
+                    <p class="description">Japón</p>
+                </div>
+            </div>
+        </div>  
+        <div>
+            <div class="zelda"><img src = "imagenes/zelda.png" id="iconoZelda"></img></div> 
+            <div class="tooltip" id="tooltipZel">
+                <div class="thumb">
+                    <img src="imagenes/zelda.png" alt="">
+                </div>
+                <div class="info">
+                    <h3 class="titulo">The Legend of Zelda: Ocarina of Time</h3>
+                    <strong class="description">Consolas:</strong>
+                    <p class="description">z</p>
+                    <p class="description">z</p>
+                    <p class="description">z</p>
+                    <strong class="description">Año de creacion:</strong>
+                    <p class="description">1998</p>
+                    <strong class="description">Género:</strong>
+                    <strong class="description">Creado en:</strong>
+                </div>
+            </div>
+        </div> 
+        <div>
+            <div class="pokemon"><img src = "imagenes/pokemon.png" id="iconoPokemon"></img></div> 
+            <div class="tooltip" id="tooltipPok">
+                <div class="thumb">
+                    <img src="imagenes/pokemon.png" alt="">
+                </div>
+                <div class="info">
+                    <h3 class="titulo">Pokémon</h3>
+                    <strong class="description">Consolas:</strong>
+                    <p class="description">pok</p>
+                    <p class="description">pok</p>
+                    <p class="description">pok</p>
+                    <strong class="description">Año de creacion:</strong>
+                    <p class="description">1996</p>
+                    <strong class="description">Género:</strong>
+                    <strong class="description">Creado en:</strong>
+                </div>
+            </div>      
+        </div> 
         <div class="the_sims">
             <i class="fas fa-map-marker-alt"></i>  
-            <div class="sims"><img src = "imagenes/the_sims.png"></img></div> 
+            <div class="sims"><img src = "imagenes/the_sims.png" id="iconoSims"></img></div> 
+            <div class="tooltip" id="tooltipSims">
+                <div class="thumb">
+                    <img src="imagenes/the_sims.png" alt="">
+                </div>
+                <div class="info">
+                    <h3 class="titulo">Los Sims</h3>
+                    <strong class="description">Consolas:</strong>
+                    <p class="description">s</p>
+                    <p class="description">s</p>
+                    <p class="description">s</p>
+                    <strong class="description">Año de creacion:</strong>
+                    <p class="description">2000</p>
+                    <strong class="description">Género:</strong>
+                    <strong class="description">Creado en:</strong>
+                </div>
+            </div>
         </div>   
         <div class="assassin">
             <i class="fas fa-map-marker-alt"></i>  
-            <div class="assassin_creed"><img src = "imagenes/assassins_creed.png"></img></div> 
+            <div class="assassin_creed"><img src = "imagenes/assassins_creed.png" id="iconoAssa"></img></div>
+            <div class="tooltip" id="tooltipAssa">
+                <div class="thumb">
+                    <img src="imagenes/assassins_creed.png" alt="">
+                </div>
+                <div class="info">
+                    <h3 class="titulo">Assassin's Creed</h3>
+                    <strong class="description">Consolas:</strong>
+                    <p class="description">a</p>
+                    <p class="description">a</p>
+                    <p class="description">a</p>
+                    <strong class="description">Año de creacion:</strong>
+                    <p class="description">2007</p>
+                    <strong class="description">Género:</strong>
+                    <strong class="description">Creado en:</strong>
+                </div>
+            </div> 
         </div>   
         <div class="Lol">
             <i class="fas fa-map-marker-alt"></i>  
-            <div class="legends"><img src = "imagenes/league_of_legends.png"></img></div> 
-            <div class="world"><img src = "imagenes/world_of_warcraft.png"></img></div> 
+            <div class="legends"><img src = "imagenes/league_of_legends.png" id="iconoLol"></img></div>
+            <div class="tooltip" id="tooltipLol">
+                <div class="thumb">
+                    <img src="imagenes/league_of_legends.png" alt="">
+                </div>
+                <div class="info">
+                    <h3 class="titulo">League of Legends</h3>
+                    <strong class="description">Consolas:</strong>
+                    <p class="description">l</p>
+                    <p class="description">l</p>
+                    <p class="description">l</p>
+                    <strong class="description">Año de creacion:</strong>
+                    <p class="description">2009</p>
+                    <strong class="description">Género:</strong>
+                    <strong class="description">Creado en:</strong>
+                </div>
+            </div>   
         </div>    
+        <div>
+            <div class="world"><img src = "imagenes/world_of_warcraft.png" id="iconoWorld"></img></div>
+            <div class="tooltip" id="tooltipWorld">
+                <div class="thumb">
+                    <img src="imagenes/world_of_warcraft.png" alt="">
+                </div>
+                <div class="info">
+                    <h3 class="titulo">World of Warcraft</h3>
+                    <strong class="description">Consolas:</strong>
+                    <p class="description">w</p>
+                    <p class="description">w</p>
+                    <p class="description">w</p>
+                    <strong class="description">Año de creacion:</strong>
+                    <p class="description">2004</p>
+                    <strong class="description">Género:</strong>
+                    <strong class="description">Creado en:</strong>
+                </div>
+            </div>        
+        </div> 
         <div class="hero">
             <i class="fas fa-map-marker-alt"></i>  
-            <div class="guitar"><img src = "imagenes/guitar_hero.png"></img></div> 
+            <div class="guitar"><img src = "imagenes/guitar_hero.png" id="iconoGuitar"></img></div>
+            <div class="tooltip" id="tooltipGuitar">
+                <div class="thumb">
+                    <img src="imagenes/guitar_hero.png" alt="">
+                </div>
+                <div class="info">
+                    <h3 class="titulo">Guitar Hero</h3>
+                    <strong class="description">Consolas:</strong>
+                    <p class="description">g</p>
+                    <p class="description">g</p>
+                    <p class="description">g</p>
+                    <strong class="description">Año de creacion:</strong>
+                    <p class="description">2005</p>
+                    <strong class="description">Género:</strong>
+                    <strong class="description">Creado en:</strong>
+                </div>
+            </div> 
         </div>    
         <div class="auto">
             <i class="fas fa-map-marker-alt"></i>  
-            <div class="gta"><img src = "imagenes/Grand_Theft_Auto_San_Andreas.png"></img></div> 
+            <div class="gta"><img src = "imagenes/Grand_Theft_Auto_San_Andreas.png" id="iconoGta"></img></div>
+            <div class="tooltip" id="tooltipGta">
+                <div class="thumb">
+                    <img src="imagenes/Grand_Theft_Auto_San_Andreas.png" alt="">
+                </div>
+                <div class="info">
+                    <h3 class="titulo">Grand Theft Auto San Andreas</h3>
+                    <strong class="description">Consolas:</strong>
+                    <p class="description">s</p>
+                    <p class="description">s</p>
+                    <p class="description">s</p>
+                    <strong class="description">Año de creacion:</strong>
+                    <p class="description">2004</p>
+                    <strong class="description">Género:</strong>
+                    <strong class="description">Creado en:</strong>
+                </div>
+            </div> 
         </div>  
         <div class="mine">
             <i class="fas fa-map-marker-alt"></i>  
-            <div class="minecraft"><img src = "imagenes/minecraft.png"></img></div> 
+            <div class="minecraft"><img src = "imagenes/minecraft.png" id="iconoMine"></img></div>
+            <div class="tooltip" id="tooltipMine">
+                <div class="thumb">
+                    <img src="imagenes/minecraft.png" alt="">
+                </div>
+                <div class="info">
+                    <h3 class="titulo">Minecraft</h3>
+                    <strong class="description">Consolas:</strong>
+                    <p class="description">m</p>
+                    <p class="description">m</p>
+                    <p class="description">m</p>
+                    <strong class="description">Año de creacion:</strong>
+                    <p class="description">2011</p>
+                    <strong class="description">Género:</strong>
+                    <strong class="description">Creado en:</strong>
+                </div>
+            </div> 
         </div> 
         <div class="tetris">
             <i class="fas fa-map-marker-alt"></i>  
-            <div class="tetri"><img src = "imagenes/tetris.png"></img></div> 
+            <div class="tetri"><img src = "imagenes/tetris.png" id="iconoTetris"></img></div>
+            <div class="tooltip" id="tooltipTetris">
+                <div class="thumb">
+                    <img src="imagenes/tetris.png" alt="">
+                </div>
+                <div class="info">
+                    <h3 class="titulo">Tetris</h3>
+                    <strong class="description">Consolas:</strong>
+                    <p class="description">t</p>
+                    <p class="description">t</p>
+                    <p class="description">t</p>
+                    <strong class="description">Año de creacion:</strong>
+                    <p class="description">1984</p>
+                    <strong class="description">Género:</strong>
+                    <strong class="description">Creado en:</strong>
+                </div>
+            </div> 
         </div>   
         <div class="halo">
             <i class="fas fa-map-marker-alt"></i>  
-            <div class="combat"><img src = "imagenes/Halo.png"></img></div> 
-            <div class="counter"><img src = "imagenes/counter_strike.png"></img></div> 
+            <div class="combat"><img src = "imagenes/Halo.png" id="iconoHalo"></img></div>
+            <div class="tooltip" id="tooltipHalo">
+                <div class="thumb">
+                    <img src="imagenes/Halo.png" alt="">
+                </div>
+                <div class="info">
+                    <h3 class="titulo">Halo: Combat Evolved</h3>
+                    <strong class="description">Consolas:</strong>
+                    <p class="description">h</p>
+                    <p class="description">h</p>
+                    <p class="description">h</p>
+                    <strong class="description">Año de creacion:</strong>
+                    <p class="description">2001</p>
+                    <strong class="description">Género:</strong>
+                    <strong class="description">Creado en:</strong>
+                </div>
+            </div>      
         </div>   
+        <div>
+            <div class="counter"><img src = "imagenes/counter_strike.png" id="iconoCounter"></img></div>
+            <div class="tooltip" id="tooltipCounter">
+                <div class="thumb">
+                    <img src="imagenes/counter_strike.png" alt="">
+                </div>
+                <div class="info">
+                    <h3 class="titulo">Counter-Strike: Source</h3>
+                    <strong class="description">Consolas:</strong>
+                    <p class="description">h</p>
+                    <p class="description">h</p>
+                    <p class="description">h</p>
+                    <strong class="description">Año de creacion:</strong>
+                    <p class="description">2004</p>
+                    <strong class="description">Género:</strong>
+                    <strong class="description">Creado en:</strong>
+                </div>
+            </div>         
+        </div> 
         <div class="angry">
             <i class="fas fa-map-marker-alt"></i>  
-            <div class="birds"><img src = "imagenes/angry_birds.png"></img></div> 
+            <div class="birds"><img src = "imagenes/angry_birds.png" id="iconoAngry"></img></div>
+            <div class="tooltip" id="tooltipAngry">
+                <div class="thumb">
+                    <img src="imagenes/angry_birds.png" alt="">     
+                </div>
+                <div class="info">
+                    <h3 class="titulo">Angry Birds</h3>
+                    <strong class="description">Consolas:</strong>
+                    <p class="description">b</p>
+                    <p class="description">b</p>
+                    <p class="description">b</p>
+                    <strong class="description">Año de creacion:</strong>
+                    <p class="description">2009</p>
+                    <strong class="description">Género:</strong>
+                    <strong class="description">Creado en:</strong>
+                </div>
+            </div> 
         </div>  
     </div>
 
-    <div class="cuadro"></div>
+    <script src="main.js"></script>
 </body>
 </html>
 
