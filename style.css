@@ -87,7 +87,7 @@
 .sims img{
     position: absolute;
     top: 21%;
-    right: 72.5%;
+    left: 24.5%;
     height: 48.8px;
     transition: 0.5s;
     object-fit: cover;
@@ -105,8 +105,8 @@
 }
 .assassin_creed img{
     position: absolute;
-    top: 9%;
-    right: 75.6%;
+    top: 8%;
+    left: 21%;
     height: 48.8px;
     transition: 0.5s;
     object-fit: cover;
@@ -125,7 +125,7 @@
 .legends img{
     position: absolute;
     top: 29%;
-    right: 85.2%;
+    left: 11.5%;
     height: 48.8px;
     transition: 0.5s;
     object-fit: cover;
@@ -138,7 +138,7 @@
 .world img{
     position: absolute;
     top: 29%;
-    right: 79%;
+    left: 18%;
     height: 48.8px;
     transition: 0.5s;
     object-fit: cover;
@@ -157,7 +157,7 @@
 .guitar img{
     position: absolute;
     top: 17%;
-    right: 66%;
+    left: 31%;
     height: 48.8px;
     transition: 0.5s;
     object-fit: cover;
@@ -232,8 +232,8 @@
 }
 .combat img{
     position: absolute;
-    top: 10.9%;
-    right: 83.6%;
+    top: 9.5%;
+    left: 13%;
     height: 48.8px;
     transition: 0.5s;
     object-fit: cover;
@@ -245,7 +245,7 @@
 .counter img{
     position: absolute;
     top: 18%;
-    right: 86%;
+    left: 10.5%;
     height: 48.8px;
     transition: 0.5s;
     object-fit: cover;

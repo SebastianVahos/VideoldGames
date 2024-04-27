@@ -55,7 +55,7 @@ const calcularPosicionMario = () => {
     const altoTooltip = tooltip.clientHeight;
     
     //donde posicionamos el tooltip
-    const izquierda = x - (anchoTooltip / 2) - 620;
+    const izquierda = x - (anchoTooltip / 2) - 550;
     const arriba = y - altoTooltip - 700;
 
     tooltip.style.left = `${izquierda}px`;
@@ -73,8 +73,8 @@ const calcularPosicionPacman = () => {
     const altoTooltip = tooltipPac.clientHeight;
     
     //donde posicionamos el tooltip
-    const izquierda = x - (anchoTooltip / 2) - 536;
-    const arriba = y - altoTooltip - 597;
+    const izquierda = x - (anchoTooltip / 2) - 467;
+    const arriba = y - altoTooltip - 595;
 
     tooltipPac.style.left = `${izquierda}px`;
     tooltipPac.style.top = `${arriba}px`;
@@ -91,8 +91,8 @@ const calcularPosicionZelda = () => {
     const altoTooltip = tooltipZel.clientHeight;
     
     //donde posicionamos el tooltip
-    const izquierda = x - (anchoTooltip / 2) - 528;
-    const arriba = y - altoTooltip - 589;
+    const izquierda = x - (anchoTooltip / 2) - 458;
+    const arriba = y - altoTooltip - 564;
 
     tooltipZel.style.left = `${izquierda}px`;
     tooltipZel.style.top = `${arriba}px`;
@@ -109,7 +109,7 @@ const calcularPosicionPokemon = () => {
     const altoTooltip = tooltipPok.clientHeight;
     
     //donde posicionamos el tooltip
-    const izquierda = x - (anchoTooltip / 2) - 620;
+    const izquierda = x - (anchoTooltip / 2) - 550;
     const arriba = y - altoTooltip - 700;
 
     tooltipPok.style.left = `${izquierda}px`;
@@ -127,7 +127,7 @@ const calcularPosicionSims = () => {
     const altoTooltip = tooltipSims.clientHeight;
     
     //donde posicionamos el tooltip
-    const izquierda = x - (anchoTooltip / 2) + 388;
+    const izquierda = x - (anchoTooltip / 2) + 456;
     const arriba = y - altoTooltip + 327;
 
     tooltipSims.style.left = `${izquierda}px`;
@@ -145,8 +145,8 @@ const calcularPosicionAssassins = () => {
     const altoTooltip = tooltipCreed.clientHeight;
     
     //donde posicionamos el tooltip
-    const izquierda = x - (anchoTooltip / 2) + 436;
-    const arriba = y - altoTooltip + 375;
+    const izquierda = x - (anchoTooltip / 2) + 509;
+    const arriba = y - altoTooltip + 381;
 
     tooltipCreed.style.left = `${izquierda}px`;
     tooltipCreed.style.top = `${arriba}px`;
@@ -163,8 +163,8 @@ const calcularPosicionLol = () => {
     const altoTooltip = tooltipLol.clientHeight;
     
     //donde posicionamos el tooltip
-    const izquierda = x - (anchoTooltip / 2) + 583;
-    const arriba = y - altoTooltip + 522;
+    const izquierda = x - (anchoTooltip / 2) + 655;
+    const arriba = y - altoTooltip + 526;
 
     tooltipLol.style.left = `${izquierda}px`;
     tooltipLol.style.top = `${arriba}px`;
@@ -181,7 +181,7 @@ const calcularPosicionWorld = () => {
     const altoTooltip = tooltipWorld.clientHeight;
     
     //donde posicionamos el tooltip
-    const izquierda = x - (anchoTooltip / 2) + 488;
+    const izquierda = x - (anchoTooltip / 2) + 556;
     const arriba = y - altoTooltip + 427;
 
     tooltipWorld.style.left = `${izquierda}px`;
@@ -199,8 +199,8 @@ const calcularPosicionGuitar = () => {
     const altoTooltip = tooltipGuitar.clientHeight;
     
     //donde posicionamos el tooltip
-    const izquierda = x - (anchoTooltip / 2) + 289;
-    const arriba = y - altoTooltip + 228;
+    const izquierda = x - (anchoTooltip / 2) + 356;
+    const arriba = y - altoTooltip + 227;
 
     tooltipGuitar.style.left = `${izquierda}px`;
     tooltipGuitar.style.top = `${arriba}px`;
@@ -217,8 +217,8 @@ const calcularPosicionGta = () => {
     const altoTooltip = tooltipGta.clientHeight;
     
     //donde posicionamos el tooltip
-    const izquierda = x - (anchoTooltip / 2) + 88;
-    const arriba = y - altoTooltip + 48;
+    const izquierda = x - (anchoTooltip / 2) + 158;
+    const arriba = y - altoTooltip + 51;
 
     tooltipGta.style.left = `${izquierda}px`;
     tooltipGta.style.top = `${arriba}px`;
@@ -235,8 +235,8 @@ const calcularPosicionMinecraft = () => {
     const altoTooltip = tooltipMine.clientHeight;
     
     //donde posicionamos el tooltip
-    const izquierda = x - (anchoTooltip / 2) - 9;
-    const arriba = y - altoTooltip - 49;
+    const izquierda = x - (anchoTooltip / 2) + 61;
+    const arriba = y - altoTooltip - 46;
 
     tooltipMine.style.left = `${izquierda}px`;
     tooltipMine.style.top = `${arriba}px`;
@@ -253,8 +253,8 @@ const calcularPosicionTetris = () => {
     const altoTooltip = tooltipTetris.clientHeight;
     
     //donde posicionamos el tooltip
-    const izquierda = x - (anchoTooltip / 2) - 190;
-    const arriba = y - altoTooltip - 250;
+    const izquierda = x - (anchoTooltip / 2) - 120;
+    const arriba = y - altoTooltip - 248;
 
     tooltipTetris.style.left = `${izquierda}px`;
     tooltipTetris.style.top = `${arriba}px`;
@@ -271,8 +271,8 @@ const calcularPosicionHalo = () => {
     const altoTooltip = tooltipHalo.clientHeight;
     
     //donde posicionamos el tooltip
-    const izquierda = x - (anchoTooltip / 2) + 559;
-    const arriba = y - altoTooltip + 479;
+    const izquierda = x - (anchoTooltip / 2) + 632;
+    const arriba = y - altoTooltip + 481;
 
     tooltipHalo.style.left = `${izquierda}px`;
     tooltipHalo.style.top = `${arriba}px`;
@@ -289,8 +289,8 @@ const calcularPosicionCounter = () => {
     const altoTooltip = tooltipCounter.clientHeight;
     
     //donde posicionamos el tooltip
-    const izquierda = x - (anchoTooltip / 2) + 596;
-    const arriba = y - altoTooltip + 556;
+    const izquierda = x - (anchoTooltip / 2) + 671;
+    const arriba = y - altoTooltip + 562;
 
     tooltipCounter.style.left = `${izquierda}px`;
     tooltipCounter.style.top = `${arriba}px`;
@@ -307,8 +307,8 @@ const calcularPosicionAngry = () => {
     const altoTooltip = tooltipAngry.clientHeight;
     
     //donde posicionamos el tooltip
-    const izquierda = x - (anchoTooltip / 2) - 129;
-    const arriba = y - altoTooltip - 169;
+    const izquierda = x - (anchoTooltip / 2) - 59;
+    const arriba = y - altoTooltip - 166;
 
     tooltipAngry.style.left = `${izquierda}px`;
     tooltipAngry.style.top = `${arriba}px`;
