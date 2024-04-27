@@ -91,8 +91,8 @@ const calcularPosicionZelda = () => {
     const altoTooltip = tooltipZel.clientHeight;
     
     //donde posicionamos el tooltip
-    const izquierda = x - (anchoTooltip / 2) - 540;
-    const arriba = y - altoTooltip - 690;
+    const izquierda = x - (anchoTooltip / 2) - 528;
+    const arriba = y - altoTooltip - 589;
 
     tooltipZel.style.left = `${izquierda}px`;
     tooltipZel.style.top = `${arriba}px`;
@@ -109,8 +109,8 @@ const calcularPosicionPokemon = () => {
     const altoTooltip = tooltipPok.clientHeight;
     
     //donde posicionamos el tooltip
-    const izquierda = x - (anchoTooltip / 2) - 600;
-    const arriba = y - altoTooltip - 800;
+    const izquierda = x - (anchoTooltip / 2) - 620;
+    const arriba = y - altoTooltip - 700;
 
     tooltipPok.style.left = `${izquierda}px`;
     tooltipPok.style.top = `${arriba}px`;
@@ -127,8 +127,8 @@ const calcularPosicionSims = () => {
     const altoTooltip = tooltipSims.clientHeight;
     
     //donde posicionamos el tooltip
-    const izquierda = x - (anchoTooltip / 2) + 379;
-    const arriba = y - altoTooltip + 208;
+    const izquierda = x - (anchoTooltip / 2) + 388;
+    const arriba = y - altoTooltip + 327;
 
     tooltipSims.style.left = `${izquierda}px`;
     tooltipSims.style.top = `${arriba}px`;
@@ -145,8 +145,8 @@ const calcularPosicionAssassins = () => {
     const altoTooltip = tooltipCreed.clientHeight;
     
     //donde posicionamos el tooltip
-    const izquierda = x - (anchoTooltip / 2) + 430;
-    const arriba = y - altoTooltip + 256;
+    const izquierda = x - (anchoTooltip / 2) + 436;
+    const arriba = y - altoTooltip + 375;
 
     tooltipCreed.style.left = `${izquierda}px`;
     tooltipCreed.style.top = `${arriba}px`;
@@ -163,8 +163,8 @@ const calcularPosicionLol = () => {
     const altoTooltip = tooltipLol.clientHeight;
     
     //donde posicionamos el tooltip
-    const izquierda = x - (anchoTooltip / 2) + 580;
-    const arriba = y - altoTooltip + 421;
+    const izquierda = x - (anchoTooltip / 2) + 583;
+    const arriba = y - altoTooltip + 522;
 
     tooltipLol.style.left = `${izquierda}px`;
     tooltipLol.style.top = `${arriba}px`;
@@ -181,8 +181,8 @@ const calcularPosicionWorld = () => {
     const altoTooltip = tooltipWorld.clientHeight;
     
     //donde posicionamos el tooltip
-    const izquierda = x - (anchoTooltip / 2) + 485;
-    const arriba = y - altoTooltip + 326;
+    const izquierda = x - (anchoTooltip / 2) + 488;
+    const arriba = y - altoTooltip + 427;
 
     tooltipWorld.style.left = `${izquierda}px`;
     tooltipWorld.style.top = `${arriba}px`;
@@ -199,8 +199,8 @@ const calcularPosicionGuitar = () => {
     const altoTooltip = tooltipGuitar.clientHeight;
     
     //donde posicionamos el tooltip
-    const izquierda = x - (anchoTooltip / 2) + 280;
-    const arriba = y - altoTooltip + 109;
+    const izquierda = x - (anchoTooltip / 2) + 289;
+    const arriba = y - altoTooltip + 228;
 
     tooltipGuitar.style.left = `${izquierda}px`;
     tooltipGuitar.style.top = `${arriba}px`;
@@ -217,8 +217,8 @@ const calcularPosicionGta = () => {
     const altoTooltip = tooltipGta.clientHeight;
     
     //donde posicionamos el tooltip
-    const izquierda = x - (anchoTooltip / 2) + 90;
-    const arriba = y - altoTooltip - 92;
+    const izquierda = x - (anchoTooltip / 2) + 88;
+    const arriba = y - altoTooltip + 48;
 
     tooltipGta.style.left = `${izquierda}px`;
     tooltipGta.style.top = `${arriba}px`;
@@ -235,8 +235,8 @@ const calcularPosicionMinecraft = () => {
     const altoTooltip = tooltipMine.clientHeight;
     
     //donde posicionamos el tooltip
-    const izquierda = x - (anchoTooltip / 2) - 18;
-    const arriba = y - altoTooltip - 189;
+    const izquierda = x - (anchoTooltip / 2) - 9;
+    const arriba = y - altoTooltip - 49;
 
     tooltipMine.style.left = `${izquierda}px`;
     tooltipMine.style.top = `${arriba}px`;
@@ -253,8 +253,8 @@ const calcularPosicionTetris = () => {
     const altoTooltip = tooltipTetris.clientHeight;
     
     //donde posicionamos el tooltip
-    const izquierda = x - (anchoTooltip / 2) - 170;
-    const arriba = y - altoTooltip - 370;
+    const izquierda = x - (anchoTooltip / 2) - 190;
+    const arriba = y - altoTooltip - 250;
 
     tooltipTetris.style.left = `${izquierda}px`;
     tooltipTetris.style.top = `${arriba}px`;
@@ -271,8 +271,8 @@ const calcularPosicionHalo = () => {
     const altoTooltip = tooltipHalo.clientHeight;
     
     //donde posicionamos el tooltip
-    const izquierda = x - (anchoTooltip / 2) + 550;
-    const arriba = y - altoTooltip + 379;
+    const izquierda = x - (anchoTooltip / 2) + 559;
+    const arriba = y - altoTooltip + 479;
 
     tooltipHalo.style.left = `${izquierda}px`;
     tooltipHalo.style.top = `${arriba}px`;
@@ -289,8 +289,8 @@ const calcularPosicionCounter = () => {
     const altoTooltip = tooltipCounter.clientHeight;
     
     //donde posicionamos el tooltip
-    const izquierda = x - (anchoTooltip / 2) + 600;
-    const arriba = y - altoTooltip + 434;
+    const izquierda = x - (anchoTooltip / 2) + 596;
+    const arriba = y - altoTooltip + 556;
 
     tooltipCounter.style.left = `${izquierda}px`;
     tooltipCounter.style.top = `${arriba}px`;
@@ -307,8 +307,8 @@ const calcularPosicionAngry = () => {
     const altoTooltip = tooltipAngry.clientHeight;
     
     //donde posicionamos el tooltip
-    const izquierda = x - (anchoTooltip / 2) - 139;
-    const arriba = y - altoTooltip - 309;
+    const izquierda = x - (anchoTooltip / 2) - 129;
+    const arriba = y - altoTooltip - 169;
 
     tooltipAngry.style.left = `${izquierda}px`;
     tooltipAngry.style.top = `${arriba}px`;
@@ -429,105 +429,105 @@ let time;
 iconoMario.addEventListener('mouseleave', () => {
     time = setTimeout(() => {
         tooltip.classList.remove('activo');
-    }, 500);
+    }, 400);
 });
 //Pacman
 let timePac;
 iconoPacman.addEventListener('mouseleave', () => {
     timePac = setTimeout(() => {
         tooltipPac.classList.remove('activo');
-    }, 500);
+    }, 400);
 });
 //Zelda
 let timeZel;
 iconoZelda.addEventListener('mouseleave', () => {
     timeZel = setTimeout(() => {
         tooltipZel.classList.remove('activo');
-    }, 500);
+    }, 400);
 });
 //pokemon
 let timePok;
 iconoPokemon.addEventListener('mouseleave', () => {
     timePok = setTimeout(() => {
         tooltipPok.classList.remove('activo');
-    }, 500);
+    }, 400);
 });
 //Los sims
 let timeSims;
 iconoSims.addEventListener('mouseleave', () => {
     timeSims = setTimeout(() => {
         tooltipSims.classList.remove('activo');
-    }, 500);
+    }, 400);
 });
 //Assassin's Creed
 let timeAssan;
 iconoCreed.addEventListener('mouseleave', () => {
     timeAssan = setTimeout(() => {
         tooltipCreed.classList.remove('activo');
-    }, 500);
+    }, 400);
 });
 //Lol
 let timelol;
 iconoLol.addEventListener('mouseleave', () => {
     timelol = setTimeout(() => {
         tooltipLol.classList.remove('activo');
-    }, 500);
+    }, 400);
 });
 //World of warcraft
 let timeWorld;
 iconoWorld.addEventListener('mouseleave', () => {
     timeWorld = setTimeout(() => {
         tooltipWorld.classList.remove('activo');
-    }, 500);
+    }, 400);
 });
 //Guitar Hero
 let timeGuitar;
 iconoGuitar.addEventListener('mouseleave', () => {
     timeGuitar = setTimeout(() => {
         tooltipGuitar.classList.remove('activo');
-    }, 500);
+    }, 400);
 });
 //Gta
 let timeGta;
 iconoGta.addEventListener('mouseleave', () => {
     timeGta = setTimeout(() => {
         tooltipGta.classList.remove('activo');
-    }, 500);
+    }, 400);
 });
 //Minecraft
 let timeMine;
 iconoMine.addEventListener('mouseleave', () => {
     timeMine = setTimeout(() => {
         tooltipMine.classList.remove('activo');
-    }, 500);
+    }, 400);
 });
 //Tetris
 let timeTetris;
 iconoTetris.addEventListener('mouseleave', () => {
     timeTetris = setTimeout(() => {
         tooltipTetris.classList.remove('activo');
-    }, 500);
+    }, 400);
 });
 //Halo
 let timeHalo;
 iconoHalo.addEventListener('mouseleave', () => {
     timeHalo = setTimeout(() => {
         tooltipHalo.classList.remove('activo');
-    }, 500);
+    }, 400);
 });
 //Counter Strike
 let timeCounter;
 iconoCounter.addEventListener('mouseleave', () => {
     timeCounter = setTimeout(() => {
         tooltipCounter.classList.remove('activo');
-    }, 500);
+    }, 400);
 });
 //Angry Birds
 let timeAngry;
 iconoAngry.addEventListener('mouseleave', () => {
     timeAngry = setTimeout(() => {
         tooltipAngry.classList.remove('activo');
-    }, 500);
+    }, 400);
 });
 
 
